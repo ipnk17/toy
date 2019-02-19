@@ -1,0 +1,140 @@
+
+
+
+
+
+
+
+
+
+.about-tov {
+	margin-bottom: 45px;
+}
+.mini-img {
+	margin-bottom: 10px;
+	&:last-child {
+		margin-bottom: 0;
+	}
+}
+.big-img {
+	margin-top: 30px;
+}
+.card-form-tov {
+	font-family: 'Raleway', sans-serif;
+	.name {
+		font-weight: 800;
+		margin-bottom: 20px;
+	}
+}
+.card-info-line {
+	display: flex;
+	color: #7d7d7d;
+	margin-bottom: 10px;
+	span {
+		color: #333333;
+		margin-left: 5px;
+	}
+	&:last-child {
+		margin-bottom: 0;
+	}
+}
+.card-price {
+	font-family: 'Poppins', sans-serif;
+	margin-top: 25px;
+}
+.options-block {
+	margin-top: 20px;
+	margin-bottom: 30px;
+}
+.option-color {
+	margin-top: 20px;
+	margin-bottom: 15px;
+}
+.radio-block {
+	label {
+		font-size: 13px;
+		margin-bottom: 15px;
+	}
+}
+.col-block {
+	display: flex;
+	align-items: center;
+	button {
+		font-size: 13px;
+		padding-top: 17px;
+		padding-bottom: 17px;
+	}
+}
+.range {
+	display: flex;
+	margin-left: 10px;
+	margin-right: 20px;
+	&>* {
+		width: 32px;
+		height: 32px;
+		background-color: $gray;
+	}
+	input {
+		border: 1px solid #bfbfbf;
+		color: black;
+		margin-left: 5px;
+		margin-right: 5px;
+		border-radius: 0;
+		padding: 0;
+		text-align: center;
+		line-height: 1;
+		font-family:'Poppins', sans-serif;
+		font-size: 14px;
+	}
+	.btn {
+		position: relative;
+		transition: .4s;
+		&:hover {
+			background-color: rgba(191, 191, 191, .6);
+		}
+		&:active {
+			background-color: rgba(191, 191, 191, 1);
+		}
+		&:before {
+			content: '';
+			position: absolute;
+			top: calc(50% - 1px);
+			left: 25%;
+			width: 50%;
+			height: 2px;
+			background-color: black;
+		}
+		&.up-col {
+			&:after {
+				content: '';
+				position: absolute;
+				left: calc(50% - 1px);
+				top: 25%;
+				height: 50%;
+				width: 2px;
+				background-color: black;
+			}
+		}
+	}
+}
+
+.social-block {
+	display: flex;
+	a {
+		margin-right: 5px;
+		transition: .4s;
+		&:hover {
+			opacity: .8;
+		}
+	}
+}
+
+
+
+
+
+
+
+
+
+

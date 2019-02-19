@@ -1,0 +1,33 @@
+.caption-line {
+    display: flex;
+    justify-content: center;
+    text-transform: uppercase;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 600;
+    line-height: 1.37;
+    margin-bottom: 30px;
+    span{
+    	display: block;
+    	// font-weight: 600;
+        @media only screen and (max-width: 500px) {
+            display: inline;
+        }
+    }
+    @media only screen and (max-width: 650px) {
+        flex-wrap: wrap;
+    }
+
+}
+.caption-line-categ {
+    font-family: 'Raleway', sans-serif;
+    display: flex;
+    width: 70%;
+    line-height: 1.3;
+    margin-bottom: 10px;
+    font-weight: 800;
+}
+.caption {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 800;
+    line-height: 1.2;
+}

@@ -1,0 +1,29 @@
+// $default-font: "roboto-example", sans-serif;
+// $accent: orange;
+$text: #5e6e71;
+$blue: #09859d;
+$green: #35bfae;
+$gray: #f6f6f8;
+// // Customization Bootstrap vars from "app/libs/bootstrap/scss/_variables.scss"
+$grid-gutter-width: 30px;
+$grid-columns: 12;
+$grid-breakpoints: (xs: 0, sm: 576px, md: 768px, lg: 992px, xl: 1200px);
+$container-max-widths: (sm: 540px, md: 720px, lg: 960px, xl: 1160px);
+
+$gutter: $grid-gutter-width;
+$screenLg: 1200px;
+$tabletWidth : 768px;
+$desktopWidth : 992px;
+$screen360 : "only screen and (max-width: 360px)";
+$screen400 : "only screen and (max-width: 400px)";
+$screen560 : "only screen and (max-width: 560px)";
+$screen640 : "only screen and (max-width: 640px)";
+$min640 : "only screen and (min-width: 641px)";
+$phone : "only screen and (max-width: " + ($tabletWidth - 1) + ")";
+$tablet : "only screen and (min-width: " + $tabletWidth + ") and (max-width: " + ($desktopWidth - 1) + ")";
+$desktop : "only screen and (min-width: " + $desktopWidth + ")";
+$large_desktop : "only screen and (min-width: " + $screenLg + ")";
+$tablet_desktop : "only screen and (min-width: " + $tabletWidth + ")";
+$phone_tablet : "only screen and (max-width: " + ($desktopWidth - 1) + ")";
+$max1200 : "only screen and (max-width: " + ($screenLg - 1) + ")";
+$tablet_large : "only screen and (min-width: " + $desktopWidth + ") and (max-width: " + ($screenLg - 1) + ")";

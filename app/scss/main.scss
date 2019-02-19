@@ -1,0 +1,192 @@
+@import "vars";
+// @import "fonts";
+@import "libs";
+
+::placeholder {
+	color: white;
+}
+
+// ::selection {
+// 	background-color: $accent;
+// 	color: #fff;
+// }
+::focus {
+	outline:none !important;
+}
+img {
+	max-width: 100%;
+}
+input, button {
+	outline:none;
+	&:focus {
+		outline:none;
+	}
+}
+label {
+	display: flex;
+	align-items: center;
+}
+input[type="radio"] {
+	width: 28px;
+	height: 28px;
+	margin: 0;
+}
+hr {
+	margin-top: 20px;
+	margin-bottom: 20px;
+}	
+
+.t-c {
+	text-align: center;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	margin: 0;
+	// font-weight: 500;
+}
+body {
+	font-size: 16px;
+	min-width: 320px;
+	position: relative;
+	line-height: 1;
+	// font-family: $default-font;
+	// font-family:'Poppins', sans-serif;
+	font-family: 'Raleway', sans-serif;
+	overflow-x: hidden;
+	color: black;
+	font-weight: 500;
+}
+
+
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0
+}
+a {
+	color: #4b89d3;
+	cursor: pointer;
+	&:hover {
+		text-decoration: none;
+	}
+}
+
+// .img-responsive {
+// 	display: block;
+// 	max-width: 100%;
+// 	height: auto;
+// 	&.img-width {
+// 		width: 100%;
+// 	}
+// }
+
+// .text-center {
+// 	text-align: center;
+// }
+
+b, strong {
+	font-weight: bold;
+}
+h1, .h1 {
+	font-size: 40px;
+	font-weight: 700;
+}
+h2, .h2 {
+	font-size: 30px;
+}
+h3, .h3 {
+	font-size: 27px;
+}
+h4, .h4 {
+	font-size: 24px;
+}
+h5, .h5 {
+	font-size: 22px;
+}
+h6, .h6 {
+	font-size: 19px;
+}
+.h7 {
+	font-size: 16px;
+}
+.h8 {
+	font-size: 14px;
+}
+p {
+	line-height: 1.2;
+	margin-bottom: 10px;
+}
+
+@media  only screen and (max-width: 991px)  {
+	h1, .h1 {
+		font-size: 44px;
+		line-height: 1.2;
+	}
+	h2, .h2 {
+		font-size: 25px;
+	}
+	h5, .h5 {
+		font-size: 14px;
+	}
+	body, html {
+		overflow-x: hidden;
+	}
+}
+@media  only screen and (max-width: 640px)  {
+	h1, .h1 {
+		font-size: 35px;
+	}
+	h2, .h2 {
+		font-size: 20px;
+	}
+	h3, .h3 {
+		font-size: 16px;
+	}
+	h4, .h4 {
+		font-size: 15px;
+	}
+}
+@media  only screen and (max-width: 350px)  {
+	h1, .h1 {
+		font-size: 33px;
+	}
+}
+
+.carousel-item {
+	
+	justify-content: center;
+	.card {
+		width: 30%;
+		margin: 0 1%;
+	}
+}
+@import "header";
+
+@import "caption";
+
+@import "bread";
+
+@import "filters";
+
+@import "gradient-sec";
+@import "spacial-line";
+@import "type-cat-sec";
+@import "big-sec";
+@import "best-sales";
+@import "brands";
+@import "category";
+@import "form-sec";
+@import "tovar";
+@import "about-tov";
+
+@import "footer";
+
+@import "form";
+
+@import "pagination";
+
+@import "dropdown";
+
+@import "btns";
+
+@import "media";

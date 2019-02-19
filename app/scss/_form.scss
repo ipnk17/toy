@@ -1,0 +1,38 @@
+input {
+	display: inline-block;
+	padding: 12px;
+	border: 1px solid #bababa;
+	border-radius: 4px;
+	color: black;
+	width: 75%;
+	transition: .4s;
+	&::placeholder {
+		color: black;
+	}
+	&:focus {
+		border-color: $green;
+	}
+	// @media only screen and (max-width: 767px) {
+	// 	padding: 15px;
+	// 	font-size: 18px;
+	// 	&::placeholder {
+	// 		font-size: 18px;
+	// 	}
+	// }
+}
+.search-f {
+	display: flex;
+	justify-content: space-between;
+	width: 88%;
+	button {
+
+		// margin-left: 30px;
+		&:hover {
+			background-color: #222e3d;
+		}
+		@media only screen and (max-width: 640px) {
+			// margin-top: 30px;
+			// padding: 15px;
+		}
+	}
+}
